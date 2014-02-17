@@ -95,23 +95,30 @@ nav#primary h1 {
 	white-space: nowrap;
 	background: transparent url('../img/nav-arrow.png') 100% 50% no-repeat;
 }
-#logo a { color: #fff; text-decoration: none; float: left; font-size: 30px; margin-top: 20px; color: #fff; font-family:"Wellfleet"; font-weight: bold; }
-#nav ul{
-	list-style: none;
-	display: block;
-	margin: 0 auto;
-	list-style: none;	
+nav.next-prev {
+	margin: 20px 0 0 0;
 }
-
-#nav li{
-	margin-top: 9px;	
-	float: left;
-	padding-left: 21px;
+a.prev,
+a.next {
+    display: block;
+    width: 15px;
+    height: 11px;
+    text-indent: -9999px;
 }
-
-#nav li a { color: #fff; opacity:0.6; font-size: 16px; text-decoration: none; font-family: 'Wellfleet'; }
-#nav li a.active { color: #fff; opacity:1; border-bottom: 2px solid #fff; }
-#nav li a:hover { color: #fff; opacity:1;  }
+a.prev {
+    margin: 0 auto 5px auto;
+    background: transparent url('../img/scroll-arrow-up.png') 0 0 no-repeat;
+}
+a.prev:hover {
+    background: transparent url('../img/scroll-arrow-up.png') 0 -11px no-repeat;
+}
+a.next {
+    margin: 5px auto 0 auto;
+    background: transparent url('../img/scroll-arrow-down.png') -1px 0 no-repeat;
+}
+a.next:hover {
+    background: transparent url('../img/scroll-arrow-down.png') -1px -11px no-repeat;
+}
 
 
 
