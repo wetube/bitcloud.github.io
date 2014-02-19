@@ -12,7 +12,8 @@ body{
 }
 
 h1 { 
-    font-family:"Ubuntu";
+    font-family:"HelveticaNeue-Light", Helvetica, Arial,
+             sans-serif;
 	font-weight:normal;
 	font-size: 55px;
 	text-align: center;
@@ -22,7 +23,8 @@ h1 {
 }
 
 h2 {
-   font-family:"Ubuntu";
+   font-family:"HelveticaNeue-Light", Helvetica, Arial,
+             sans-serif;
    font-weight: normal;
    font-size: 40px;
    text-align: center;
@@ -32,7 +34,8 @@ h2 {
 }
 
 h3 {
-   font-family: "Ubuntu";
+   font-family: "HelveticaNeue-Light", Helvetica, Arial,
+             sans-serif;
    font-weight: normal;
    font-size: 16px;
    text-align: center;
@@ -47,8 +50,8 @@ h3 {
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
-a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"Ubuntu"; text-decoration: none; margin: 7px 11px; }
-a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"Ubuntu"; text-decoration: none; margin: 7px 11px; }
+a.lpanel { float: left; color: #e1e1e1; font-size: 12px; font-family:"HelveticaNeue-Light", Helvetica, Arial, sans-serif; text-decoration: none; margin: 7px 11px; }
+a.rpanel { float: right; color: #e1e1e1;  font-size: 12px; font-family:"HelveticaNeue-Light", Helvetica, Arial, sans-serif; text-decoration: none; margin: 7px 11px; }
 
 a.lpanel:hover{ color: #fff; }
 a.rpanel:hover{ color: #fff; }
@@ -134,8 +137,8 @@ nav.next-prev {
   margin: 50px auto;
 }
    
- .author_name_white { font-family:"Ubuntu";  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
- .author_name_gray { font-family:"Ubuntu";  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
+ .author_name_white { font-family:"HelveticaNeue-Light", Helvetica, Arial, sans-serif;  margin: 70px 0 0 75px; color: #fff; font-size: 20px; }  
+ .author_name_gray { font-family:"HelveticaNeue-Light", Helvetica, Arial, sans-serif;  margin: 70px 0 0 75px; color: #94a4a4; font-size: 20px; }  
  .quotes_container { width: 800px; margin: 0 auto; }
 
 #divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
@@ -169,7 +172,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= SLIDES STYLING
 --------------------------------------------------------*/
 
-#slide1, #slide2{ width: 100%; }
+#slide1, #slide2, #slide3, #slide4, #slide5{ width: 100%; }
 #slide1{
 	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
@@ -224,5 +227,5 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 /*= FOOTER 
 --------------------------------------------------------*/
 
-#copyright  { color: #fff; font-family:"Ubuntu";  font-size: 14px; margin-top: 100px; text-align: center;  }
+#copyright  { color: #fff; font-family:"HelveticaNeue-Light", Helvetica, Arial, sans-serif;  font-size: 14px; margin-top: 100px; text-align: center;  }
 #copyright  a { text-decoration: none; color: #fff;  }
