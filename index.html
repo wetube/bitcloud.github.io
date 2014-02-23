@@ -47,31 +47,6 @@
   <meta name="DC.Format" content="html">
   <meta name="DC.Language" content="en">
   <meta name="DC.Rights" content="Bitcloud">
-
-
-  <script>
-    // jQuery click function
-    $(document).ready(function () {
-      $('a[href*=#]').each(function () {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-          && location.hostname == this.hostname
-          && this.hash.replace(/#/, '')) {
-          var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) + ']');
-          var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-          if ($target) {
-            var targetOffset = $target.offset().top;
-
-            $(this).click(function () {
-              $("#nav li a").removeClass("active");
-              $(this).addClass('active');
-              $('html, body').animate({scrollTop: targetOffset}, 1000);
-              return false;
-            });
-          }
-        }
-      });
-    });
-  </script>
 </head>
 
 <body>
@@ -208,5 +183,26 @@
     <!----- SLIDES END --->
   </div>
 </div>
+
+<script>
+  // jQuery click function
+  $(document).ready(function () {
+    $('a[href*=#]').each(function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          && location.hostname == this.hostname
+          && this.hash.replace(/#/, '')) {
+        var target_id = $(this.hash),
+            target_anchor = $('[name=' + this.hash.slice(1) + ']'),
+            target = target_id.length ? target_id : target_anchor.length ? target_anchor : false;
+        if (target) {
+          $(this).click(function () {
+            $('html, body').animate({scrollTop: target.offset().top}, 1000);
+          });
+        }
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
