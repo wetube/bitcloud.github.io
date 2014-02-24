@@ -74,20 +74,20 @@ a.rpanel:hover{ color: #fff; }
 	left: 0;
 }
 
-#menu ul{
-	margin: 30px 0 0 0;
-	padding: 0;
-	list-style: none;
-	z-index: 999;
-	position: relative;
+#menu {
+    margin: 30px 0 0 0;
+    padding: 0;
+    list-style: none;
+    z-index: 999;
+    position: relative;
 }
 
-#menu ul li{
+#menu li{
 	display: inline;
 	margin: 0 40px 0 40px;
 }
 
-#menu ul li a{
+#menu li a{
 	display: inline-block;
 
 	/* Font-style */
@@ -97,11 +97,16 @@ a.rpanel:hover{ color: #fff; }
 	text-align: center;
 	text-decoration: none;
 	color: #6CC6FB;
+    height: 40px;
 }
 
-#menu ul li a:hover{
+#menu li a:hover{
 	text-decoration: none;
 	color: #000;
+}
+
+#menu li a.active {
+    border-bottom: 2px solid #41b5ff;
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }

@@ -78,15 +78,13 @@
 
 <header id="header">
   <img src="img/logo1.png" height="80"/>
-  <nav id="menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#slide2">Development</a></li>
-        <li><a href="#slide3">F&Q</a></li>
-        <li><a href="#slide4">Help</a></li>
-        <li><a href="#slide5">Contact</a></li>
-      </ul>
-    </nav>
+  <ul id="menu">
+    <li><a class="active" href="#slide1">Home</a></li>
+    <li><a href="#slide2">Development</a></li>
+    <li><a href="#slide3">F&Q</a></li>
+    <li><a href="#slide4">Help</a></li>
+    <li><a href="#slide5">Contact</a></li>
+  </ul>
 </header>
 
 <!-- HEADER END- -->
@@ -203,12 +201,16 @@
             target_anchor = $('[name=' + this.hash.slice(1) + ']'),
             target = target_id.length ? target_id : target_anchor.length ? target_anchor : false;
         if (target) {
-          $(this).click(function () {
+          $(this).click(function (event) {
+            event.preventDefault(); // Letting the event trigger produces flicker
+            $('a').removeClass('active');
+            $(this).addClass('active');
             $('html, body').animate({scrollTop: target.offset().top}, 1000);
           });
         }
       }
     });
+
   });
 </script>
 
