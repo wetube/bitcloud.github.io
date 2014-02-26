@@ -59,7 +59,7 @@ a.rpanel:hover{ color: #fff; }
 	width: 100%; 
 	/*background: url('../img/header-bg.png'); */
 	background-color: #FFF;
-	opacity:0.6;
+	opacity:0.4;
 	height: 80px; 	
 	position: fixed;
 	z-index: 999;
