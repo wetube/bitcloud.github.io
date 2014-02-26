@@ -72,8 +72,8 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #menu {
-    margin: 30px 10px 0 0;
-    padding: 0;
+    margin: 30px 0 0 0;
+    padding: none;
     list-style: none;
     z-index: 999;
     position: relative;
@@ -81,7 +81,7 @@ a.rpanel:hover{ color: #fff; }
 
 #menu li{
 	display: inline;
-	margin: 0 40px 0 40px;
+	margin: 40px 40px 0 40px;
 }
 
 #menu li a{
