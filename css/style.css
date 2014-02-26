@@ -73,7 +73,7 @@ a.rpanel:hover{ color: #fff; }
 
 #menu {
     margin: 30px 0 0 0;
-    padding: 10;
+    padding: 10px;
     list-style: none;
     z-index: 999;
     position: relative;
