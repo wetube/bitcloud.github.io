@@ -81,7 +81,7 @@ a.rpanel:hover{ color: #fff; }
 
 #menu li{
 	display: inline;
-	margin: 40px 40px 0 40px;
+	margin: 0 40px 40px 40px;
 }
 
 #menu li a{
