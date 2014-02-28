@@ -104,17 +104,19 @@
       <img src="img/mainpage.png" class="center" width="384"/>
     </div>
       
-    Popcorn.player( "baseplayer" );
-      var pop = Popcorn.smart( "#video", "video.mp4" );
+    <script>
+      Popcorn.player( "baseplayer" );
+        var pop = Popcorn.smart( "#video", "video.mp4" );
   
-      pop.footnote({
-        start: 1,
-        end: 5,
-        text: "Works with youtube!",
-        target: "footnote-div"
-      });
+        pop.footnote({
+          start: 1,
+          end: 5,
+          text: "Works with youtube!",
+          target: "footnote-div"
+        });
   
-     pop.play();
+       pop.play();
+     </script>
 
   </div>
 
