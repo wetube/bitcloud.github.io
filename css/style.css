@@ -213,9 +213,9 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2, #slide3, #slide4, #slide5{ width: 100%; }
 #slide1{
-	background:url('../img/slide1.jpg')
+	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
-	height: 100%;
+	height: 600px;
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
