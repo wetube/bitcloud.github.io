@@ -213,7 +213,27 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide1, #slide2, #slide3, #slide4, #slide5{ width: 100%; }
 #slide1{
-	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
+	background:url('../img/slide1.jpg') {
+		
+  		min-height: 100%;
+  		min-width: 1024px;
+	
+	  	/* Set up proportionate scaling */
+  		width: 100%;
+  		height: auto;
+	
+		  /* Set up positioning */
+  		position: fixed;
+  		top: 0;
+  		left: 0;
+	}
+
+	@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	 	slide1.jpg {
+    			left: 50%;
+			margin-left: -512px;   /* 50% */
+  		}
+	}
 	color: #fff;
 	height: 100%;
 	margin: 0;
