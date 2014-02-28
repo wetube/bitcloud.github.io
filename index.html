@@ -104,14 +104,16 @@
       <img src="img/mainpage.png" class="center" width="384"/>
     </div>
       
-      <div id="wrapper" style="width:100%; text-align:center">
-        <video width="1024" height="768" >
-          <source src="movie.mp4" type="video/mp4">
-          <object data="movie.mp4" width="1024" height="768">
-            <embed src="movie.swf" width="1024" height="768">
-          </object> 
-        </video>
-      </div>
+      var pop = Popcorn.smart( "#video", "video.mp4" );
+  
+      pop.footnote({
+        start: 1,
+        end: 5,
+        text: "Works with youtube!",
+        target: "footnote-div"
+      });
+  
+     pop.play();
 
   </div>
 
