@@ -38,12 +38,6 @@ h3 {
 	position: relative;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
@@ -165,18 +159,6 @@ nav.next-prev {
             background: url('../img/scroll-arrow-down.png') -1px -11px no-repeat;
             }
 
-
-
-/*= SOME ELEMENTS
---------------------------------------------------------*/
-
-
-#divider { background: url('../img/divider.png')no-repeat; width: 300px; height: 35px; margin: 0px auto 27px auto; }
-#ribbon { background: url('../img/ribbon.png')no-repeat; width: 251px; height: 48px; margin: 0 auto;  display: block; position: relative; top: -38px; }
-
-
-
-
 /*= BUTTONS
 --------------------------------------------------------*/
 
@@ -206,6 +188,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background:url('../img/slide1.jpg') 50% 0 no-repeat fixed;
 	color: #fff;
+	width: 100%;
 	height: 100%;
 	margin: 0;
 	padding: 200px 0 260px 0;
@@ -215,6 +198,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
+	width: 100%;
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
@@ -225,6 +209,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide3{
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
+	width: 100%;
 	height: 100%;
 	padding: 200px 0 260px 0;	
 	background-size: cover;
@@ -234,6 +219,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide4{
 	background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
 	color: #fff;
+	width: 100%;
 	height: 100%;
 	padding: 200px 0 260px 0;
 	margin: 0;
@@ -243,6 +229,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide5{
 	background: url(../img/slide5.jpg) 50% 0 no-repeat fixed;
 	height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 200px 0 260px 0;
 	color: #fff;
