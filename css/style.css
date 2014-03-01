@@ -194,7 +194,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	color: #fff;
 	height: 100%;
 	width: auto;
-	padding: 125px 0 125px 0;
+	overflow: hidden;
+	padding: 125px 0 0 0;
 	margin: 0;
 }
 
