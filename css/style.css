@@ -192,6 +192,8 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background:url('../img/slide1.jpg') no-repeat fixed;
 	color: #fff;
+	height: 100%;
+	width: auto;
 	padding: 125px 0 125px 0;
 	margin: 0;
 }
