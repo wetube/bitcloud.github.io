@@ -68,11 +68,11 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #menu {
-    margin: 30px 0 0 0;
-    padding: none;
-    list-style: none;
-    z-index: 999;
-    position: relative;
+	margin: 30px 0 0 0;
+	padding: none;
+	list-style: none;
+   	z-index: 999;
+    	position: relative;
 }
 
 #menu li{
@@ -82,8 +82,6 @@ a.rpanel:hover{ color: #fff; }
 
 #menu li a{
 	display: inline-block;
-
-	/* Font-style */
 	font-family: Ubuntu, sans-serif;
 	font-weight: 800;
 	font-size: 20px;
@@ -193,6 +191,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide1{
 	background: url('../img/slide1.jpg') no-repeat fixed;
 	height: 100%;
+	color: #fff;
 	width: auto;
 	overflow: hidden;
 	padding: 125px 0 0 0;
@@ -201,6 +200,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 #slide2{
 	background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
 	width: 100%;
+	color: #fff;
 	height: 100%;
 	margin: 0;
 	overflow: hidden;
@@ -215,6 +215,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	padding: 200px 0 260px 0;	
 	background-size: cover;
 	margin: 0;
+	color: #fff;
 }
 
 #slide4{
@@ -224,6 +225,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	padding: 200px 0 260px 0;
 	margin: 0;
 	background-size: cover;
+	color: #fff;
 }
 
 #slide5{
@@ -233,6 +235,7 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	margin: 0;
 	padding: 200px 0 260px 0;
 	background-size: cover;
+	color: #fff;
 }
 
 /*= FOOTER 
