@@ -196,12 +196,10 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	width: auto;
 	overflow: hidden;
 	padding: 125px 0 0 0;
-	margin: 0;
 }
 
 #slide2{
 	background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -212,7 +210,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide3{
 	background: url(../img/slide3.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
 	width: 100%;
 	height: 100%;
 	padding: 200px 0 260px 0;	
@@ -222,7 +219,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 
 #slide4{
 	background: url(../img/slide4.jpg) 50% 0 no-repeat fixed;
-	color: #fff;
 	width: 100%;
 	height: 100%;
 	padding: 200px 0 260px 0;
@@ -236,7 +232,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	width: 100%;
 	margin: 0;
 	padding: 200px 0 260px 0;
-	color: #fff;
 	background-size: cover;
 }
 
