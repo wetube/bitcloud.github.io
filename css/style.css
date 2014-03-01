@@ -38,6 +38,12 @@ h3 {
 	position: relative;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
 .center { margin: 0 auto; }
 .content{ margin: 0 auto; width: 960px; }
 .clear { clear: both; }
