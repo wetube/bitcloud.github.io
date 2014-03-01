@@ -54,7 +54,7 @@ a.rpanel:hover{ color: #fff; }
 	width: 100%; 
 	background-color: #FFF;
 	opacity:0.88;
-	height: 100px; 	
+	height: 130px; 	
 	position: fixed;
 	z-index: 999;
 	text-align: center;
@@ -193,7 +193,6 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	background:url('../img/slide1.jpg')  100% 0 no-repeat fixed;
 	color: #fff;
 	margin: 0;
-	padding: 0 0 0 0;
 	background-size: cover;
 }
 
