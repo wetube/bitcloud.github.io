@@ -240,6 +240,17 @@ ul.built { list-style: none; margin: 0 auto; width: 730px; }
 	color: #fff;
 }
 
+#slide6{
+	background: url(../img/slide2.jpg) 50% 0 no-repeat fixed;
+	width: 100%;
+	color: #fff;
+	height: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 200px 0 260 0;
+	background-size: cover;
+}
+
 /*= INFO AND SOME ELEMENTS
 --------------------------------------------------------*/
 .info {   
