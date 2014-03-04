@@ -101,7 +101,7 @@ a.rpanel:hover{ color: #fff; }
 }
 
 #Menu li:hover ul {
-    display: block;
+    display: inline;
 }
 
 #nav { width: 410px; float: right; margin-top: 20px; }
