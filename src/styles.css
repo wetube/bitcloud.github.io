@@ -80,6 +80,9 @@ nav #case {
 	display:block;
 }
 
+nav #case span {
+}
+
 /* RESPONSIVE GRID */
 
 @media (max-width: 1824px) {
