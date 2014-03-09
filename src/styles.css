@@ -80,7 +80,8 @@ nav #case {
 	display:block;
 }
 
-nav #case span {
+nav #case .icon {
+	margin: 0 15px;
 }
 
 /* RESPONSIVE GRID */
