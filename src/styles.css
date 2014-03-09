@@ -21,3 +21,12 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
+/* FONTS */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+/* MAIN STYLES */
+
+/* RESPONSIVE GRID */
