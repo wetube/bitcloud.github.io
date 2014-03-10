@@ -148,9 +148,10 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 #center #description {
 	width: 355px;
 	padding: 20px;
-	
+	text-align: justify;
 	display: inline-block;
 	vertical-align: top;
+	font-size:18px;
 }
 #center #seenon {
 	width: 1000px;
