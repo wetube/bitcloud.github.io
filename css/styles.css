@@ -125,6 +125,19 @@ nav #case #subnav a {
 	display: inline-block;
 	vertical-align: top;
 }
+#center #seenon {
+	width: 1000px;
+	margin: 50px auto auto auto;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 50px;
+}
+#center #seenon h1 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
 /* CENTER END */
 
 /* ======================================================== */
