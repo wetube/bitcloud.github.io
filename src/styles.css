@@ -33,15 +33,6 @@ body {
   src: local('Alef Bold'), local('Alef-Bold'), url(http://themes.googleusercontent.com/static/fonts/alef/v2/-Kr5IHxOfJcJ-pnH-9NRPA.woff) format('woff');
 }
 
-/* MAIN STYLES */
-
-.left {
-	float: left;
-}
-.right {
-	float: right;
-}
-
 /* ELEMENT STYLES */
 
 nav a {
@@ -81,13 +72,21 @@ nav #case {
 	display:block;
 }
 
-nav #case .icon {
+nav #case img {
 	margin: 0 15px;
 	cursor: pointer;
 }
 
-nav #case #grid-menu {
-	display: none;
+nav #case .left {
+	display: inline-block;
+	width: 200px;
+	text-align:left;
+}
+
+nav #case .right {
+	display: inline-block;
+	width: 770px;
+	text-align: right;
 }
 
 /* RESPONSIVE GRID */
@@ -99,8 +98,8 @@ nav #case #grid-menu {
 }
 
 @media (max-width: 1024px) {
-	nav #case #grid-menu {
-		display: inline-block;
+	nav #case {
+		width: 100%;
 	}
 }
 
