@@ -1,255 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>Bitcloud</title>
-  <link rel="stylesheet" href="css/style.css"/>
-  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
-  <script src="js/parallax.js"></script>
-  <script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
-  <script>
-          document.addEventListener( "DOMContentLoaded", function() {
-  
-            var popcorn = Popcorn( "#ourvideo" );
-  
-            popcorn.footnote({
-             start: 2,
-             end: 5,
-             target: "footnote",
-             text: "Pop!"
-           });
- 
-         }, false );
-  </script>
-  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular&subset=Latin,Cyrillic">
-
-  <!-- Meta tags for improve SEO -->
-  <meta name="description"
-        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency."/>
-  <meta name="robots" content="all"/>
-
-  <!-- Facebook -->
-  <meta property="og:title" content="Bitcloud"/>
-  <meta property="og:type" content="website"/>
-  <meta property="og:image"
-        content="https://lh3.googleusercontent.com/-p61aGuqthdI/Uu2VSwWu58I/AAAAAAAAA4k/mt8zh-tyuXM/bitcloud.jpg"/>
-  <meta property="og:description"
-        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency."/>
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:title" content="Bitcloud"/>
-  <meta name="twitter:description"
-        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency."/>
-  <meta name="twitter:image"
-        content="https://lh3.googleusercontent.com/-p61aGuqthdI/Uu2VSwWu58I/AAAAAAAAA4k/mt8zh-tyuXM/bitcloud.jpg"/>
-
-  <!-- Dublin Core -->
-  <meta name="DC.Title" content="Bitcloud">
-  <meta name="DC.Creator" content="Bitcloud">
-  <meta name="DC.Description"
-        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency.">
-  <meta name="DC.Publisher" content="Bitcloud">
-  <meta name="DC.Contributor" content="Bitcloud">
-  <meta name="DC.Date" content="2014">
-  <meta name="DC.Format" content="html">
-  <meta name="DC.Language" content="en">
-  <meta name="DC.Rights" content="Bitcloud">
+<meta charset="utf-8">
+<title>Bitcloud</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script src="jquery.js"></script>
+<script src="javascript/script.js"></script>
 </head>
 
 <body>
 
-
-<!-- HEADER START -->
-
-<nav id="primary">
-  <ul>
-    <li>
-      <a href="#slide1" class="active" title="Next Section">Home</a>
-    </li>
-    <li>
-      <a href="#slide2" title="Next Section">Features</a>
-    </li>
-    <li>
-      <a href="#slide3" title="Next Section">Apps</a>
-    </li>
-    <li>
-      <a href="#slide4" title="Next Section">FAQ</a>
-    </li>
-    <li>
-      <a href="#slide5" title="Next Section">Contact Us</a>
-    </li>
-  </ul>
-</nav>
-
-<header id="header">
-  <img src="img/logo1.png" height="80"/>
-  <ul id="menu">
-    <li><a class="active" href="#slide1">Home</a></li>
-    <li><a href="#slide2">About</a></li>
-    <li><a href="#slide3">FAQ</a></li>
-    <li><a href="#slide4">Development</a></li>
-    <li><a href="#slide5">Contact</a></li>
-    <li><a href="http://bitcloudproject.org">Wiki</a></li>
-    <li><a href="http://talk.bitcloudproject.org/">Forum</></li>
-    <li><a href="" title="Next Section">Blog</a></li>
-    <li>
-         <a href = "#"> More</a>
-         <ul>
-              <li><a href = "http://bitcloudproject.org">Wiki</a></li> 
-              <li><a href = "http://talk.bitcloudproject.org">Forum</a></li> 
-              <li><a href = "Next Section">Blog</a></li> 
-         </ul>
-     </li>
-  </ul>
-</header>
-
-<!-- HEADER END- -->
-
-<!-- SLIDES START -->
-<div id="slide1">
-  <div class="content" data-stellar-background-ratio="0.5">
-
-    <div id="wrapper" style="width:100%; text-align:center">
-      <img src="img/mainpage.png" class="center" width="384"/>
-    </div>
-      
-    <script>
-      Popcorn.player( "baseplayer" );
-        var pop = Popcorn.smart( "#video", "video.mp4" );
-  
-        pop.footnote({
-          start: 1,
-          end: 5,
-          text: "Works with youtube!",
-          target: "footnote-div"
-        });
-  
-       pop.play();
-     </script>
-
-  </div>
-
-</div>
-
-<div id="slide2">
-  <div class="content">
-    <div class="container">
-      <h1>Dev</h1>
-
-      <h3 class="info">Bitcloud is an open source project striving to create free software enabling the creation of a
-        new form of darknet and cryptocurrency.
-
-        A decentralized p2p network in which block rewards will be allocated based on bandwidth shared and services
-        provided to the network instead of hashing power in order to create an incentive for parttaking nodes.
-
-        Bitcloud is at the very early protocol design stages of turning the proof of bandwidth idea into a reality.
-        Please read the general outline in the github papers.
-      </h3>
-    </div>
-
-  </div>
-  
-</div>
-
-
-<div id="slide3">
-
-  <div class="content">
-    <div class="container">
-      <h1>FAQ</h1>
-
-      <h3 class="info">We are going public with this idea early on because we want to be as open and transparent as
-        possible. This project requires a massive amount of thought and development in many different parts of the
-        protocol, so we need as many people helping as possible.”
-      </h3>
-
-    </div>
-  
-  </div>
-</div>
-
-
-<div id="slide4">
-  <div class="content">
-    <div class="container">
-      <h1>Help</h1>
-
-      <h3 class="info">With Bitcloud, nodes on the p2p network and at later stages a mesh network will be rewarded
-        financially for routing traffic. Long term this can potentially remove the need for Internet Service Providers.
-        Short term it also enables the public to replace many of the centralized applications on the current Internet,
-        such as YouTube, Dropbox, Facebook, Spotify, and others with decentralized, open source alternatives.
-      </h3>
-
+	<nav>
+    	<span id="case">
+            <span class="left">
+                <a href="#">bitcloud</a>
+            </span>
+            
+            <span class="right">
+                <a href="#">intro</a>
+                <a href="#">why</a>
+                <a href="#">economics</a>
+                <a href="#" style="margin-right:0;"><img src="img/wiki-ico.png" width="27" height="18" alt="wiki-ico.png"></a>
+                <a href="#"><img src="img/coding-ico.png" width="27" height="18" alt="coding-ico.png"></a>
+                <img src="img/grid-ico.png" id="subnav-icon" width="18" height="18" alt="grid-ico.png">
+                <span id="subnav">
+                	<a href="#">About</a>
+                    <a href="#">FAQ</a>
+                    <a href="#">Development</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Forum</a>
+                </span>
+            </span>
+        </span>
+    </nav>
+    
+    <div>
     </div>
     
-  </div>
-</div>
-
-
-<div id="slide5">
-  <div class="content">
-    <div class="container">
-      <h1>Contact Us</h1>
-
-      <h3 class="info">We will have to start by decentralizing the current Internet, and then we can create a new
-        Internet to replace it. If you’re interested in privacy, security, ending Internet censorship, decentralizing
-        the Internet, and creating a new mesh network to replace the Internet, then Bitcloud is a project you should support.
-
-        If you see the potential implications of this project and are a developer or someone who wants to help the
-        project, then please, <a href="http://bitcloudproject.org/w/Join_us">join us.</a>
-      </h3>
-
-      <div class="social-buttons">
-        <div class="g-plusone" data-href="https://plus.google.com/109492852016866015336"></div>
-        <div class="fb-like" data-href="https://www.facebook.com/bitcloudproject" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-      </div>
-    </div>
-
-    <!-- SLIDES END -->
-  </div>
-</div>
-
-<script>
-  // jQuery click function
-  $(document).ready(function () {
-    $('a[href*=#]').each(function () {
-      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-          && location.hostname == this.hostname
-          && this.hash.replace(/#/, '')) {
-        var target_id = $(this.hash),
-            target_anchor = $('[name=' + this.hash.slice(1) + ']'),
-            target = target_id.length ? target_id : target_anchor.length ? target_anchor : false;
-        if (target) {
-          $(this).click(function (event) {
-            event.preventDefault(); // Letting the event trigger produces flicker
-            $('a').removeClass('active');
-            $(this).addClass('active');
-            $('html, body').animate({scrollTop: target.offset().top}, 1000);
-          });
-        }
-      }
-    });
-
-  });
-</script>
-<!-- Google+ Link load -->
-<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/platform.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-<!-- Facebook Load -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=560615977354616";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+    <footer>
+    </footer>
+    
 </body>
 </html>
