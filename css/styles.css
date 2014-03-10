@@ -58,8 +58,15 @@ body {
 nav a {
 	font-family: 'Alef';
 	font-weight: 700;
-	margin: 0 15px;
 	line-height: 18px;
+	border-top: 4px solid #42b6ff;
+	padding: 15px 15px 0 15px;
+	margin: -15px -5px auto auto;
+	display: inline-block;
+	vertical-align: top;
+}
+nav a:hover, nav a:active {
+	border-top: 4px solid #FFF;
 }
 
 nav {
@@ -84,6 +91,7 @@ nav #case {
 
 nav #case img {
 	cursor: pointer;
+	vertical-align: top;
 }
 
 nav #case .left {
@@ -110,8 +118,15 @@ nav #case #subnav {
 
 nav #case #subnav a {
 	display: block;
-	margin: 10px;
+	margin: 0;
+	padding: 15px;
 	color: #42b6ff;
+	border: none;
+	background-color: #FFF;
+}
+nav #case #subnav a:hover, nav #case #subnav a:active {
+	background-color: #42b6ff;
+	color: #FFF;
 }
 /* NAVIGATION END */
 
