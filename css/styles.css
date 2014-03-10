@@ -34,6 +34,22 @@ body {
   font-weight: 700;
   src: local('Alef Bold'), local('Alef-Bold'), url(http://themes.googleusercontent.com/static/fonts/alef/v2/-Kr5IHxOfJcJ-pnH-9NRPA.woff) format('woff');
 }
+/* ======================================================== */
+/* WHOLE PAGE STYLES - MARKED WITH AN X- */
+.X-center {
+	display:-ms-flexbox;
+	-ms-flex-pack:center;
+	-ms-flex-align:center;
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
 
 /* ======================================================== */
 /* ELEMENT STYLES */
@@ -104,11 +120,7 @@ nav #case #subnav a {
 #center {
 	width: 1000px;
 	margin: 100px auto 0 auto;
-	
 	color: #FFF;
-	
-	/* REMOVE WHEN FINISHED (BACKGROUND-COLOR) */
-	/* background-color: rgba(0,0,0,.15); */
 }
 #center #video {
 	width: 600px;
@@ -140,24 +152,23 @@ nav #case #subnav a {
 }
 #center .feature {
 	width: 300px;
-	height: 500px;
+	height: 600px;
 	margin: 50px 15px 50px 15px;
 	display: inline-block;
 	vertical-align: top;
 	text-align: justify;
+	background-color: rgba(0,0,0,.1);
 }
 #center .feature .text {
 	background-color: rgba(0,0,0,.15);
-	display:block;
+	display: block;
 	width: 260px;
-	height: 160px;
+	height: 260px;
 	padding: 20px;
 }
-#center .feature .placeholder {
-	width: 150px;
-	height: 150px;
-	background-color: #333;
-	margin: 75px;
+#center .feature .center {
+	width: 300px;
+	height: 300px;
 }
 #center .feature h1 {
 	font-weight: 400;
