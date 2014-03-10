@@ -50,6 +50,13 @@ body {
 	box-pack:center;
 	box-align:center;
 }
+#playbutton {
+        width:100%;
+        height:100%;
+        font-size:125px;
+        line-height:400px;
+        text-align:center;
+}
 
 /* ======================================================== */
 /* ELEMENT STYLES */
