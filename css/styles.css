@@ -57,6 +57,9 @@ body {
         line-height:400px;
         text-align:center;
 }
+strong {
+	font-weight: 700;
+}
 
 /* ======================================================== */
 /* ELEMENT STYLES */
