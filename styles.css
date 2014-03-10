@@ -108,7 +108,22 @@ nav #case #subnav a {
 	color: #FFF;
 	
 	/* REMOVE WHEN FINISHED (BACKGROUND-COLOR) */
-	background-color: rgba(0,0,0,.15);
+	/* background-color: rgba(0,0,0,.15); */
+}
+#center #video {
+	width: 720px;
+	height: 480px;
+	background-color: rgba(0,0,0,.5);
+	
+	display: inline-block;
+	vertical-align: top;
+}
+#center #description {
+	width: 435px;
+	padding: 20px;
+	
+	display: inline-block;
+	vertical-align: top;
 }
 /* CENTER END */
 
