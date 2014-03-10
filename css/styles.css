@@ -145,10 +145,18 @@ nav #case #subnav a {
 	padding-bottom: 50px;
 }
 #center #seenon h1 {
-	font-size: 30px;
+	font-size: 36px;
 	font-weight: 400;
 	margin-bottom: 20px;
-	text-decoration: underline;
+	text-transform:uppercase;
+}
+#center #features .title {
+	margin-top: 50px;
+	width:100%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform:uppercase;
 }
 #center .feature {
 	width: 300px;
@@ -170,7 +178,7 @@ nav #case #subnav a {
 	width: 300px;
 	height: 300px;
 }
-#center .feature h1 {
+#center #features .feature h1 {
 	font-weight: 400;
 }
 /* CENTER END */
