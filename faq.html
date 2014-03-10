@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Bitcloud FAQ</title>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+  <script src="http://popcornjs.org/code/dist/popcorn-complete.js"></script>
+  <script>
+          document.addEventListener( "DOMContentLoaded", function() {
+  
+            var popcorn = Popcorn( "#ourvideo" );
+  
+            popcorn.footnote({
+             start: 2,
+             end: 5,
+             target: "footnote",
+             text: "Pop!"
+           });
+ 
+         }, false );
+  </script>
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular&subset=Latin,Cyrillic">
+
+  <!-- Meta tags for improve SEO -->
+  <meta name="description"
+        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency."/>
+  <meta name="robots" content="all"/>
+
+  <!-- Facebook -->
+  <meta property="og:title" content="Bitcloud"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image"
+        content="https://lh3.googleusercontent.com/-p61aGuqthdI/Uu2VSwWu58I/AAAAAAAAA4k/mt8zh-tyuXM/bitcloud.jpg"/>
+  <meta property="og:description"
+        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency."/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="Bitcloud"/>
+  <meta name="twitter:description"
+        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency."/>
+  <meta name="twitter:image"
+        content="https://lh3.googleusercontent.com/-p61aGuqthdI/Uu2VSwWu58I/AAAAAAAAA4k/mt8zh-tyuXM/bitcloud.jpg"/>
+
+  <!-- Dublin Core -->
+  <meta name="DC.Title" content="Bitcloud">
+  <meta name="DC.Creator" content="Bitcloud">
+  <meta name="DC.Description"
+        content="Bitcloud is an open source project striving to create free software enabling the creation of a new form of darknet and cryptocurrency.">
+  <meta name="DC.Publisher" content="Bitcloud">
+  <meta name="DC.Contributor" content="Bitcloud">
+  <meta name="DC.Date" content="2014">
+  <meta name="DC.Format" content="html">
+  <meta name="DC.Language" content="en">
+  <meta name="DC.Rights" content="Bitcloud">
+  
+  <script>
+  // jQuery click function
+  $(document).ready(function () {
+    $('a[href*=#]').each(function () {
+      if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+          && location.hostname == this.hostname
+          && this.hash.replace(/#/, '')) {
+        var target_id = $(this.hash),
+            target_anchor = $('[name=' + this.hash.slice(1) + ']'),
+            target = target_id.length ? target_id : target_anchor.length ? target_anchor : false;
+        if (target) {
+          $(this).click(function (event) {
+            event.preventDefault(); // Letting the event trigger produces flicker
+            $('a').removeClass('active');
+            $(this).addClass('active');
+            $('html, body').animate({scrollTop: target.offset().top}, 1000);
+          });
+        }
+      }
+    });
+
+  });
+</script>
+
+</head>
+<body>
+
+
+<nav id="primary">
+  <ul>
+    <li>
+      <a href="index.html#slide1" class="Next Section" title="Next Section">Home</a>
+    </li>
+    <li>
+      <a href="index.html#slide2" title="Next Section">Features</a>
+    </li>
+    <li>
+      <a href="index.html#slide3" title="Next Section">Apps</a>
+    </li>
+    <li>
+      <a href="faq.html" title="active">FAQ</a>
+    </li>
+    <li>
+      <a href="index.html#slide5" title="Next Section">Contact Us</a>
+    </li>
+  </ul>
+</nav>
+
+<header id="header">
+  <img src="img/logo1.png" height="80"/>
+  <ul id="menu">
+    <li><a href="index.html#slide1">Home</a></li>
+    <li><a href="index.html#slide2">About</a></li>
+    <li><a class="active" href="faq.html">FAQ</a></li>
+    <li><a href="index.html#slide4">Development</a></li>
+    <li><a href="index.html#slide5">Contact</a></li>
+    <li><a href="http://bitcloudproject.org">Wiki</a></li>
+    <li><a href="http://talk.bitcloudproject.org/">Forum</></li>
+    <li><a href="" title="Next Section">Blog</a></li>
+    <li>
+         <a href = "#"> More</a>
+         <ul>
+              <li><a href = "http://bitcloudproject.org">Wiki</a></li> 
+              <li><a href = "http://talk.bitcloudproject.org">Forum</a></li> 
+              <li><a href = "Next Section">Blog</a></li> 
+         </ul>
+     </li>
+  </ul>
+</header>
+
+<!-- HEADER END- -->
+<div id="slide3">
+
+  <div class="content">
+    <div class="container">
+    
+          <h1>FAQ</h1>
+
+      <h3 class="info">We are going public with this idea early on because we want to be as open and transparent as
+        possible. This project requires a massive amount of thought and development in many different parts of the
+        protocol, so we need as many people helping as possible.”
+      </h3>
+
+    </div>
+  
+  </div>
+</div>
+
+</body>
+</html>
