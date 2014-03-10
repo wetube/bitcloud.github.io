@@ -111,19 +111,32 @@ nav #case #subnav a {
 	/* background-color: rgba(0,0,0,.15); */
 }
 #center #video {
-	width: 720px;
-	height: 480px;
+	width: 600px;
+	height: 400px;
 	background-color: rgba(0,0,0,.5);
 	
 	display: inline-block;
 	vertical-align: top;
 }
 #center #description {
-	width: 235px;
+	width: 355px;
 	padding: 20px;
 	
 	display: inline-block;
 	vertical-align: top;
+}
+#center #seenon {
+	width: 1000px;
+	margin: 50px auto auto auto;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 50px;
+}
+#center #seenon h1 {
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-decoration: underline;
 }
 /* CENTER END */
 
