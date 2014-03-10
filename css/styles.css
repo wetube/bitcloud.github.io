@@ -138,6 +138,30 @@ nav #case #subnav a {
 	margin-bottom: 20px;
 	text-decoration: underline;
 }
+#center .feature {
+	width: 300px;
+	height: 500px;
+	margin: 50px 15px 50px 15px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+}
+#center .feature .text {
+	background-color: rgba(0,0,0,.15);
+	display:block;
+	width: 260px;
+	height: 160px;
+	padding: 20px;
+}
+#center .feature .placeholder {
+	width: 150px;
+	height: 150px;
+	background-color: #333;
+	margin: 75px;
+}
+#center .feature h1 {
+	font-weight: 400;
+}
 /* CENTER END */
 
 /* ======================================================== */
