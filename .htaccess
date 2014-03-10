@@ -1,0 +1,46 @@
+# Use PHP5.4 Single php.ini as default
+AddHandler application/x-httpd-php54s .php
+# disable directory browsing
+    
+    Options ExecCGI Includes IncludesNOEXEC SymLinksIfOwnerMatch -Indexes
+
+<files error_log>
+   order allow,deny
+   deny from all
+</files>
+<files php.ini>
+   order allow,deny
+   deny from all
+</files>
+
+ErrorDocument 400 /errors/index.html
+ErrorDocument 401 /errors/index.html
+ErrorDocument 402 /errors/index.html
+ErrorDocument 403 /errors/index.html
+ErrorDocument 404 /errors/index.html
+ErrorDocument 405 /errors/index.html
+ErrorDocument 406 /errors/index.html
+ErrorDocument 407 /errors/index.html
+ErrorDocument 408 /errors/index.html
+ErrorDocument 409 /errors/index.html
+ErrorDocument 410 /errors/index.html
+ErrorDocument 411 /errors/index.html
+ErrorDocument 412 /errors/index.html
+ErrorDocument 413 /errors/index.html
+ErrorDocument 414 /errors/index.html
+ErrorDocument 415 /errors/index.html
+ErrorDocument 416 /errors/index.html
+ErrorDocument 417 /errors/index.html
+ErrorDocument 422 /errors/index.html
+ErrorDocument 423 /errors/index.html
+ErrorDocument 424 /errors/index.html
+ErrorDocument 500 /errors/index.html
+ErrorDocument 501 /errors/index.html
+ErrorDocument 502 /errors/index.html
+ErrorDocument 503 /errors/index.html
+ErrorDocument 504 /errors/index.html
+ErrorDocument 505 /errors/index.html
+ErrorDocument 506 /errors/index.html
+ErrorDocument 507 /errors/index.html
+ErrorDocument 510 /errors/index.html
+
