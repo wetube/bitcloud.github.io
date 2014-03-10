@@ -145,9 +145,6 @@ nav #case #subnav a {
 	display: inline-block;
 	vertical-align: top;
 	text-align: justify;
-	
-	/* DELETE THIS WHEN FINISHED */
-	background-color: rgba(0,0,0,.15);
 }
 #center .feature .text {
 	background-color: rgba(0,0,0,.15);
