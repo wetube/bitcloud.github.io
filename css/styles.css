@@ -111,15 +111,15 @@ nav #case #subnav a {
 	/* background-color: rgba(0,0,0,.15); */
 }
 #center #video {
-	width: 720px;
-	height: 480px;
+	width: 600px;
+	height: 400px;
 	background-color: rgba(0,0,0,.5);
 	
 	display: inline-block;
 	vertical-align: top;
 }
 #center #description {
-	width: 235px;
+	width: 355px;
 	padding: 20px;
 	
 	display: inline-block;
