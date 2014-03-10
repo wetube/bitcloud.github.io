@@ -51,25 +51,13 @@ nav {
 	font-size: 18px;
 	color: #FFF;
 	text-transform: uppercase;
-	
-	display:-ms-flexbox;
-	-ms-flex-pack:center;
-	-ms-flex-align:center;
-	display:-moz-box;
-	-moz-box-pack:center;
-	-moz-box-align:center;
-	display:-webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
-	display:box;
-	box-pack:center;
-	box-align:center;
 }
 
 nav #case {
 	width: 1000px;
 	overflow: hidden;
 	display:block;
+	margin: 0 auto;
 }
 
 nav #case img {
@@ -81,12 +69,29 @@ nav #case .left {
 	display: inline-block;
 	width: 200px;
 	text-align:left;
+	float:left;
+	margin-top:15px;
 }
 
 nav #case .right {
 	display: inline-block;
 	width: 770px;
 	text-align: right;
+	float:right;
+	margin-top:15px;
+}
+
+nav #case #subnav {
+	background-color:#FFF;
+	width: 200px;
+	margin-left:570px;
+	display:none;
+}
+
+nav #case #subnav a {
+	display: block;
+	margin:10px;
+	color: #42b6ff;
 }
 
 /* RESPONSIVE GRID */
