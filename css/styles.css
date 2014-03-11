@@ -90,6 +90,7 @@ nav {
 	font-size: 18px;
 	color: #FFF;
 	text-transform: uppercase;
+	border-bottom: 1px solid #FFF;
 }
 
 nav #case {
@@ -216,9 +217,6 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 
 /* ======================================================== */
 /* RESPONSIVE GRID */
-
-@media (max-width: 1824px) {
-}
 
 @media (max-width: 1224px) {
 }
