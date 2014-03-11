@@ -176,7 +176,7 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	margin-bottom: 20px;
 	text-transform:uppercase;
 }
-#center #features .title {
+#center #features .title, #center #applications .title {
 	margin-top: 50px;
 	width:100%;
 	text-align: center;
@@ -184,7 +184,7 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	font-size: 36px;
 	text-transform:uppercase;
 }
-#center .feature {
+#center #features .feature, #center #applications .application {
 	width: 300px;
 	height: 600px;
 	margin: 50px 15px 50px 15px;
@@ -193,19 +193,24 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	text-align: justify;
 	background-color: rgba(0,0,0,.1);
 }
-#center .feature .text {
+#center #features .feature .text, #center #applications .application .text {
 	background-color: rgba(0,0,0,.15);
 	display: block;
 	width: 260px;
 	height: 260px;
 	padding: 20px;
 }
-#center .feature .center {
-	width: 300px;
-	height: 300px;
+#center .feature .center, #center #applications .center {
+	width: 298px;
+	height: 298px;
+	border: 1px solid #FFF;
 }
-#center #features .feature h1 {
+#center #features .feature h1, #center #applications .application h1 {
 	font-weight: 400;
+	text-align:left;
+}
+#center #features {
+	border-bottom: 1px solid #FFF;
 }
 /* CENTER END */
 
