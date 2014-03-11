@@ -191,7 +191,7 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	display: inline-block;
 	vertical-align: top;
 	text-align: justify;
-	background-color: #444;
+	background-color: #333;
 	/* background-color: rgba(0,0,0,.1); */
 }
 #center #features .feature .text, #center #applications .application .text {
