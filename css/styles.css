@@ -148,20 +148,20 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	color: #FFF;
 }
 #center #video {
-	width: 600px;
-	height: 400px;
+	width: 800px;
+	margin: 0 auto;
+	height: 500px;
 	background-color: rgba(0,0,0,.5);
 	
-	display: inline-block;
-	vertical-align: top;
+	display: block;
 }
 #center #description {
-	width: 355px;
+	width: 760px;
 	padding: 0 20px 20px 20px;
 	text-align: justify;
-	display: inline-block;
-	vertical-align: top;
+	display: block;
 	font-size:18px;
+	margin: 50px auto 0 auto;
 }
 #center #seenon {
 	width: 1000px;
