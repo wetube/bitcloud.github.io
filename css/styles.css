@@ -9,6 +9,8 @@
 body {
 	line-height: 1;
 	background-color: #81caff;
+	font-family: 'Alef';
+	font-weight: 400;
 }
 a {
 	font-family: Arial, Helvetica, sans-serif;
@@ -18,10 +20,7 @@ a {
 
 /* ======================================================== */
 /* FONTS */
-body {
-	font-family: 'Alef';
-	font-weight: 400;
-}
+
 @font-face {
   font-family: 'Alef';
   font-style: normal;
@@ -192,10 +191,12 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	display: inline-block;
 	vertical-align: top;
 	text-align: justify;
-	background-color: rgba(0,0,0,.1);
+	background-color: #444;
+	/* background-color: rgba(0,0,0,.1); */
 }
 #center #features .feature .text, #center #applications .application .text {
-	background-color: rgba(0,0,0,.15);
+	background-color: #42b6ff;
+	/* background-color: rgba(0,0,0,.15); */
 	display: block;
 	width: 260px;
 	height: 260px;
