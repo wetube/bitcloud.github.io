@@ -201,9 +201,9 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	padding: 20px;
 }
 #center .feature .center, #center #applications .center {
-	width: 298px;
-	height: 298px;
-	border: 1px solid #FFF;
+	width: 300px;
+	height: 300px;
+	border-bottom: 1px solid #FFF;
 }
 #center #features .feature h1, #center #applications .application h1 {
 	font-weight: 400;
