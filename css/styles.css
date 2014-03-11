@@ -206,6 +206,9 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	width: 300px;
 	height: 300px;
 	border-bottom: 1px solid #FFF;
+	-moz-box-shadow: inset 0 0 10px #000;
+	-webkit-box-shadow: inset 0 0 10px #000;
+	box-shadow: inset 0 0 10px #000;
 }
 #center #features .feature h1, #center #applications .application h1 {
 	font-weight: 400;
