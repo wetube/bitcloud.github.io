@@ -17,7 +17,7 @@
 	cursor: pointer;
 	padding: 0 20px;
 }
-#center .box a:after {
+#center .box a:before {
 	background-image:url(../img/faq/expand.png);
 	height: 50px;
 	width: 50px;
