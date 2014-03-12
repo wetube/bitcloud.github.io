@@ -11,10 +11,28 @@
 	}
 }
 @-moz-keyframes move {
+	0% {
+		margin-left: 2560px;
+	}
+	100% {
+		margin-left: -500px;
+	}
 }
 @-o-keyframes move {
+	0% {
+		margin-left: 2560px;
+	}
+	100% {
+		margin-left: -500px;
+	}
 }
 @keyframes move {
+	0% {
+		margin-left: 2560px;
+	}
+	100% {
+		margin-left: -500px;
+	}
 }
 
 /* ======================================================== */
@@ -68,12 +86,17 @@
 	-webkit-animation: move linear infinite 32s;
 	-webkit-animation-delay: 15s;
 	-webkit-transform:scale(0.9);
+	-moz-animation: move linear infinite 32s;
+	-moz-animation-delay: 15s;
+	-moz-transform: scale(0.9);
 	opacity: 0.3;
 }
 #cloud1 {
-	-webkit-animation: move linear infinite 43s;
 	top: 100px;
+	-webkit-animation: move linear infinite 43s;
 	-webkit-transform:scale(0.8);
+	-moz-animation: move linear infinite 43s;
+	-moz-transform: scale(0.8);
 	opacity: 0.3;
 }
 /* CLOUD LEVEL 2 (medium) */
@@ -81,12 +104,18 @@
 	-webkit-animation: move linear infinite 52s;
 	-webkit-animation-delay: 40s;
 	-webkit-transform:scale(0.7);
+	-moz-animation: move linear infinite 52s;
+	-moz-animation-delay: 40s;
+	-moz-transform: scale(0.7);
 	opacity: 0.3;
 }
 #cloud2 {
 	-webkit-animation: move linear infinite 58s;
 	-webkit-animation-delay: 20s;
 	-webkit-transform:scale(0.6);
+	-moz-animation: move linear infinite 58s;
+	-moz-animation-delay: 20s;
+	-moz-transform: scale(0.6);
 	opacity: 0.2;
 }
 /* CLOUD LEVEL 3 (small) */
@@ -94,6 +123,9 @@
 	-webkit-animation: move linear infinite 68s;
 	-webkit-animation-delay: 10s;
 	-webkit-transform:scale(0.4);
+	-moz-animation: move linear infinite 68s;
+	-moz-animation-delay: 10s;
+	-moz-transform: scale(0.4);
 	opacity: 0.2;
 }
 /* CLOUD LEVEL 4 (tiny) */
@@ -101,5 +133,8 @@
 	-webkit-animation: move linear infinite 91s;
 	-webkit-animation-delay: 10s;
 	-webkit-transform:scale(0.3);
+	-moz-animation: move linear infinite 91s;
+	-moz-animation-delay: 10s;
+	-moz-transform: scale(0.3);
 	opacity: 0.1;
 }
