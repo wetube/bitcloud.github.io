@@ -65,6 +65,7 @@ strong {
 /* ELEMENT STYLES */
 
 /* NAVIGATION START */
+
 nav a {
 	font-family: 'Alef';
 	font-weight: 700;
@@ -125,6 +126,7 @@ nav #case #subnav {
 	width: 200px;
 	margin-left: 570px;
 	display: none;
+	margin-top: -10px;
 }
 
 nav #case #subnav a {
@@ -139,6 +141,13 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	background-color: #42b6ff;
 	color: #FFF;
 }
+nav #case #subnav-icon {
+	padding-bottom: 20px;
+}
+nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
+	display:block;
+}
+
 /* NAVIGATION END */
 
 /* CENTER START */

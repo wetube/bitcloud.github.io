@@ -3,6 +3,7 @@
 var menuClicked = false;
 
 $( document ).ready(function() {
+	/*
 	$("nav #case #subnav-icon").click(function() {
 		if(menuClicked == true) {
 			$("nav #case #subnav").show(0);
@@ -13,4 +14,5 @@ $( document ).ready(function() {
 			menuClicked = false;
 		}
 	});
+	*/
 });
