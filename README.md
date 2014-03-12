@@ -5,7 +5,7 @@ Fill out the information [here](https://docs.google.com/forms/d/1m-VO63sxyBMXEUz
 
 Check out the preview [here](http://wetube.github.io/)
 
-<a href="http://imgur.com/LUCvAJM"><img src="http://i.imgur.com/LUCvAJM.png" title="Hosted by imgur.com" /></a>
+<a href="http://imgur.com/U3ZswbS"><img src="<a href="http://imgur.com/U3ZswbS"><img src="http://i.imgur.com/U3ZswbS.png" title="Hosted by imgur.com" /></a>" title="Bitcloud Website" /></a>
 
 ## Goals
 This website will act as both a means to spread the knowledge of bitcloud to the community, while also acting as a discussion base for the developers of bitcloud.
