@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* CLOUDS CSS */
+
+/* KEYFRAMES */
+@-webkit-keyframes move {
+	0% {
+		margin-left: 2560px;
+	}
+	100% {
+		margin-left: -500px;
+	}
+}
+@-moz-keyframes move {
+}
+@-o-keyframes move {
+}
+@keyframes move {
+}
+
+/* ======================================================== */
+/* GENERAL CLOUD STYLES */
+#clouds {
+	/* z-index: -10; */
+	position: fixed;
+	top: 100px;
+	z-index: -10;
+}
+#clouds .cloud {
+	position: relative;
+	width: 300px;
+	height: 120px;
+	background-color: #FFF;
+	border-radius: 120px;
+	left: -300px;
+}
+#clouds .cloud:after, #clouds .cloud:before {
+	position: absolute;
+	content: '';
+	background-color: #FFF;
+}
+#clouds .cloud:before {
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	z-index: 10;
+	left: 50px;
+	top: -40px;
+}
+#clouds .cloud:after {
+	width: 150px;
+	height: 150px;
+	border-radius: 150px;
+	left: 120px;
+	top: -50px;
+}
+
+/* ======================================================== */
+/* SPECIFIC CLOUD STYLES 		*/
+
+/* CLOUD LEVEL TIMEFRAMES 		*/
+/* CLOUD LEVEL 1 30-45			*/
+/* CLOUD LEVEL 2 50-60			*/
+/* CLOUD LEVEL 3 65-80			*/
+/* CLOUD LEVEL 4 85-100			*/
+
+/* CLOUD LEVEL 1 (BIG) */
+#cloud5 {
+	-webkit-animation: move linear infinite 32s;
+	-webkit-animation-delay: 15s;
+	-webkit-transform:scale(0.9);
+	opacity: 0.3;
+}
+#cloud1 {
+	-webkit-animation: move linear infinite 43s;
+	top: 100px;
+	-webkit-transform:scale(0.8);
+	opacity: 0.3;
+}
+/* CLOUD LEVEL 2 (medium) */
+#cloud4 {
+	-webkit-animation: move linear infinite 52s;
+	-webkit-animation-delay: 40s;
+	-webkit-transform:scale(0.7);
+	opacity: 0.3;
+}
+#cloud2 {
+	-webkit-animation: move linear infinite 58s;
+	-webkit-animation-delay: 20s;
+	-webkit-transform:scale(0.6);
+	opacity: 0.2;
+}
+/* CLOUD LEVEL 3 (small) */
+#cloud6 {
+	-webkit-animation: move linear infinite 68s;
+	-webkit-animation-delay: 10s;
+	-webkit-transform:scale(0.4);
+	opacity: 0.2;
+}
+/* CLOUD LEVEL 4 (tiny) */
+#cloud3 {
+	-webkit-animation: move linear infinite 91s;
+	-webkit-animation-delay: 10s;
+	-webkit-transform:scale(0.3);
+	opacity: 0.1;
+}
