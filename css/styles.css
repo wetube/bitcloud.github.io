@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 /* CSS INCLUDES 	*/
-/* FETCH clouds.css */
 @import url('clouds.css');
 
 /* ======================================================== */
@@ -41,18 +40,18 @@ a {
 /* ======================================================== */
 /* WHOLE PAGE STYLES - MARKED WITH AN X- */
 .X-center {
-	display:-ms-flexbox;
-	-ms-flex-pack:center;
-	-ms-flex-align:center;
-	display:-moz-box;
-	-moz-box-pack:center;
-	-moz-box-align:center;
-	display:-webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
-	display:box;
-	box-pack:center;
-	box-align:center;
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display: box;
+	box-pack: center;
+	box-align: center;
 }
 #playbutton {
         width:100%;

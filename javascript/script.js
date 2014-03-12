@@ -1,6 +1,7 @@
 // vars
 
-menuClicked = false;
+var menuClicked = false;
+var OS;
 
 $( document ).ready(function() {
 	$("nav #case #subnav-icon").click(function() {
@@ -13,4 +14,9 @@ $( document ).ready(function() {
 			menuClicked = false;
 		}
 	});
+	
+	// LINUX MOZ TEST
+	if (navigator.appVersion.indexOf("Linux")!=-1) {
+		$("#clouds").hide();
+	}
 });
