@@ -19,6 +19,14 @@ Bitcloud::App.controllers  do
   # end
 
   get :index do
-    render 'index'
+    render :index
+  end
+
+  get :about do
+    render :about
+  end
+
+  get :faq do
+    render :faq
   end
 end
