@@ -144,11 +144,11 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 nav #case #subnav-icon {
 	padding-bottom: 20px;
 }
-nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
-	display:block;
-}
 nav #case #subnav .mobile-subnav {
 	display: none;
+}
+nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
+	display:block;
 }
 
 /* NAVIGATION END */
@@ -255,7 +255,6 @@ nav #case #subnav .mobile-subnav {
 		width: calc(100% - 40px);
 	}
 }
-
 @media (max-width: 700px) {
 	/* ONE COLUMN */
 	#center {
@@ -286,6 +285,9 @@ nav #case #subnav .mobile-subnav {
 	}
 	#playbutton {
 		line-height: 200px;
+	}
+	nav #subnav-icon:active + #subnav {
+		display: none;
 	}
 }
 
