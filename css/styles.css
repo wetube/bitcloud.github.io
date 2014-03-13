@@ -174,7 +174,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	margin: 50px auto 0 auto;
 }
 #center #seenon {
-	width: 1000px;
+	width: 100%;
 	margin: 50px auto auto auto;
 	text-align: center;
 	border-bottom: 1px solid #FFF;
@@ -239,9 +239,21 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	nav #case {
 		width: 100%;
 	}
+	
+	/* TWO COLUMNS */
+	#center {
+		width: 665px;
+	}
+	#center #video {
+		width:100%;
+	}
+	#center #description {
+		width:calc(100% - 40px);
+	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
+	/* ONE COLUMN */
 }
 
 @media (max-width: 640px) {
