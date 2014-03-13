@@ -1,11 +1,11 @@
-**Website Development For Bitcloud**
+# Website Development For Bitcloud
 ## Getting Started
 
 Fill out the information [here](https://docs.google.com/forms/d/1m-VO63sxyBMXEUzQOhHxv-VewguuprEx6yAIW7f2oQY/viewform)
 
 Check out the preview [here](http://wetube.github.io/)
 
-<a href="http://imgur.com/U3ZswbS"><img src="<a href="http://imgur.com/U3ZswbS"><img src="http://i.imgur.com/U3ZswbS.png" title="Hosted by imgur.com" /></a>" title="Bitcloud Website" /></a>
+[![Bitcloud website](http://i.imgur.com/U3ZswbS.png)](http://wetube.github.io/)
 
 ## Goals
 This website will act as both a means to spread the knowledge of bitcloud to the community, while also acting as a discussion base for the developers of bitcloud.
