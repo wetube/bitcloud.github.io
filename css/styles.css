@@ -283,7 +283,4 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 }
 
 @media (max-width: 321px) {
-	#center {
-		-webkit-transform: scale(0.5);
-	}
 }
