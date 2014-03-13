@@ -266,6 +266,14 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	#center #features .feature .center, #center #applications .center {
 		width: 100%;
 	}
+	#test {
+		display:block;
+		position:fixed;
+		background-color: rgba(0,0,0,.5);
+		z-index:100;
+		width: 100%;
+		height: 100%;
+	}
 }
 
 @media (max-width: 550px) {
@@ -274,10 +282,5 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	}
 	#center #features .feature .text, #center #applications .application .text {
 		height: auto;
-	}
-}
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-	#center {
-		width: calc(50% - 40px);
 	}
 }
