@@ -208,11 +208,11 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	background-color: #42b6ff;
 	/* background-color: rgba(0,0,0,.15); */
 	display: block;
-	width: 260px;
+	width: calc(100% - 40px);
 	height: 260px;
 	padding: 20px;
 }
-#center .feature .center, #center #applications .center {
+#center #features .feature .center, #center #applications .center {
 	width: 300px;
 	height: 300px;
 	border-bottom: 1px solid #FFF;
@@ -253,10 +253,33 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 }
 
 @media (max-width: 700px) {
-	/* ONE COLUMN */
+	/* ONE COLUMN FIXED WIDTH */
+	#center {
+		width: 500px;
+	}
+	#center #features .feature, #center #applications .application {
+		width: 500px;
+		height: auto;
+		margin: 50px 0;
+	}
+	#center #features .feature .center, #center #applications .center {
+		width: 100%;
+	}
 }
 
-@media (max-width: 640px) {
+@media (max-width: 550px) {
+	/* ONE COLUMN AUTO WIDTH */
+	#center {
+		width: calc(100% - 40px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#center #features .feature, #center #applications .application {
+		width: 100%;
+	}
+	#center #features .feature .text, #center #applications .application .text {
+		height: auto;
+	}
 }
 
 @media (max-width: 321px) {
