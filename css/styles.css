@@ -276,6 +276,8 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 		height: auto;
 	}
 }
-
-@media (max-width: 321px) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	#center {
+		width: calc(50% - 40px);
+	}
 }
