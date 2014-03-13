@@ -9,5 +9,5 @@ ICONS:
 --> Cryptocurrnecies						NWPlayer123
 --> Exchanges							anonymous/corrected by RX78
 --> Social Networks						anonymous
---> Messengers							NWPlayer123
+--> Messengers							NWPlayer123/corrected by RX78
 --> Private Cloud Storage					anonymous
