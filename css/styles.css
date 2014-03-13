@@ -253,13 +253,14 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 }
 
 @media (max-width: 700px) {
-	/* ONE COLUMN FIXED WIDTH */
+	/* ONE COLUMN */
 	#center {
-		width: 500px;
+		width: calc(100% - 40px);
+		margin-left: auto;
+		margin-right: auto;
 	}
 	#center #features .feature, #center #applications .application {
-		width: 500px;
-		height: auto;
+		width: 100%;
 		margin: 50px 0;
 	}
 	#center #features .feature .center, #center #applications .center {
@@ -268,14 +269,8 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 }
 
 @media (max-width: 550px) {
-	/* ONE COLUMN AUTO WIDTH */
-	#center {
-		width: calc(100% - 40px);
-		margin-left: auto;
-		margin-right: auto;
-	}
 	#center #features .feature, #center #applications .application {
-		width: 100%;
+		height: auto;
 	}
 	#center #features .feature .text, #center #applications .application .text {
 		height: auto;
