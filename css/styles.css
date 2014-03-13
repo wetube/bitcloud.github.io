@@ -114,19 +114,18 @@ nav #case .left {
 }
 
 nav #case .right {
-	display: inline-block;
 	text-align: right;
 	float: right;
 	margin-top: 15px;
-	max-width: 770px;
+	max-width: 700px;
 }
 
 nav #case #subnav {
 	background-color: #FFF;
 	width: 200px;
-	margin-left: 570px;
 	display: none;
 	margin-top: -10px;
+	float:right;
 }
 
 nav #case #subnav a {
@@ -146,6 +145,9 @@ nav #case #subnav-icon {
 }
 nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	display:block;
+}
+nav #case #subnav .mobile-subnav {
+	display: none;
 }
 
 /* NAVIGATION END */
@@ -261,12 +263,24 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 		margin-left: auto;
 		margin-right: auto;
 	}
+	#center #video {
+		height: 200px;
+	}
 	#center #features .feature, #center #applications .application {
 		width: auto;
 		margin: 50px 0;
 	}
 	#center #features .feature .center, #center #applications .center {
 		width: auto;
+	}
+	nav #case .desktop-nav {
+		display: none;
+	}
+	nav #case #subnav .mobile-subnav {
+		display: block;
+	}
+	#playbutton {
+		line-height: 200px;
 	}
 }
 
