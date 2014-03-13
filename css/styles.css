@@ -245,10 +245,11 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 		width: 665px;
 	}
 	#center #video {
-		width:100%;
+		width: 100%;
 	}
 	#center #description {
-		width:calc(100% - 40px);
+		width: -webkit-calc(100% - 40px);
+		width: calc(100% - 40px);
 	}
 }
 
