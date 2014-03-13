@@ -261,11 +261,11 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 		margin-right: auto;
 	}
 	#center #features .feature, #center #applications .application {
-		width: 100%;
+		width: auto;
 		margin: 50px 0;
 	}
 	#center #features .feature .center, #center #applications .center {
-		width: 100%;
+		width: auto;
 	}
 }
 
