@@ -1,0 +1,13 @@
+ICONS:
+--> no more blockchains:					name
+--> Trustless Security						name
+--> Easy Development for Decentralized Applications		name
+--> NSA Resistance						name
+--> Reliable Storage						name
+--> Free Software						name
+--> Media Platforms						name
+--> Cryptocurrnecies						name
+--> Exchanges							name
+--> Social Networks						name
+--> Messengers							name
+--> Private Cloud Storage					name
