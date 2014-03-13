@@ -126,8 +126,6 @@ nav #case #subnav {
 	display: none;
 	margin-top: -10px;
 	float:right;
-	max-height: 230px;
-	overflow: auto;
 }
 
 nav #case #subnav a {
@@ -281,6 +279,10 @@ nav #case #subnav .mobile-subnav {
 	}
 	nav #case #subnav .mobile-subnav {
 		display: block;
+	}
+	nav #case #subnav a {
+		font-size:14px;
+		padding: 10px 10px 10px 0;
 	}
 	#playbutton {
 		line-height: 200px;
