@@ -1,13 +1,13 @@
 ICONS:
---> no more blockchains:					name
---> Trustless Security						name
---> Easy Development for Decentralized Applications		name
---> NSA Resistance						name
---> Reliable Storage						name
---> Free Software						name
---> Media Platforms						name
---> Cryptocurrnecies						name
---> Exchanges							name
---> Social Networks						name
---> Messengers							name
---> Private Cloud Storage					name
+--> no more blockchains:					RX78
+--> Trustless Security						NWPlayer123
+--> Easy Development for Decentralized Applications		anonymous
+--> NSA Resistance						anonymous
+--> Reliable Storage						NWPlayer123
+--> Free Software						RX78
+--> Media Platforms						anonymous
+--> Cryptocurrnecies						NWPlayer123
+--> Exchanges							anonymous/corrected by RX78
+--> Social Networks						anonymous
+--> Messengers							NWPlayer123
+--> Private Cloud Storage					anonymous
