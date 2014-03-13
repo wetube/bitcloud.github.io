@@ -288,6 +288,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	}
 	nav #subnav-icon:active + #subnav {
 		display: none;
+		-webkit-transition-delay: .1s;
 	}
 }
 
