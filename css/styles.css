@@ -126,6 +126,8 @@ nav #case #subnav {
 	display: none;
 	margin-top: -10px;
 	float:right;
+	max-height: 230px;
+	overflow: auto;
 }
 
 nav #case #subnav a {
@@ -135,6 +137,7 @@ nav #case #subnav a {
 	color: #42b6ff;
 	border: none;
 	background-color: #FFF;
+	font-size: 16px;
 }
 nav #case #subnav a:hover, nav #case #subnav a:active {
 	background-color: #42b6ff;
