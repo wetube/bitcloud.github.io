@@ -150,9 +150,6 @@ nav #case #subnav .mobile-subnav {
 nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	display:block;
 }
-nav #case #subnav-icon-mobileFix {
-	display: none;
-}
 
 /* NAVIGATION END */
 
