@@ -124,8 +124,8 @@ nav #case #subnav {
 	background-color: #FFF;
 	width: 150px;
 	display: none;
-	margin-top: -10px;
 	float:right;
+	margin: 20px -20px 0 0;
 }
 
 nav #case #subnav a {
@@ -143,8 +143,9 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 }
 nav #case #subnav-icon {
 	padding-bottom: 20px;
+	float:right;
 }
-nav #case #subnav .mobile-subnav {
+nav #case .mobile-subnav {
 	display: none;
 }
 nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
@@ -276,7 +277,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	nav #case .desktop-nav {
 		display: none;
 	}
-	nav #case #subnav .mobile-subnav {
+	nav #case .mobile-subnav {
 		display: block;
 	}
 	nav #case #subnav a {
