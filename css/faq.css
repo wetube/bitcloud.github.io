@@ -18,12 +18,9 @@
 	padding: 0 20px;
 }
 #center .box a:before {
-	background-image:url(../img/faq/expand.png);
-	height: 50px;
-	width: 50px;
 	display: block;
 	float:left;
-	content:'';
+	content:'+';
 }
 #center .box .answer {
 	font-size:18px;
