@@ -272,7 +272,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 		margin: 50px 0;
 	}
 	#center #features .feature .center, #center #applications .center {
-		width: auto;
+		width: 100%;
 	}
 	nav #case .desktop-nav {
 		display: none;
