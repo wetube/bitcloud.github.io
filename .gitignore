@@ -1,1 +1,7 @@
 Thumbs.db
+*.ogg
+blog/*
+index.html.back
+wiki/*
+wp/*
+
