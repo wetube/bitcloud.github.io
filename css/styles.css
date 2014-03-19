@@ -116,7 +116,7 @@ nav #case .left {
 nav #case .right {
 	text-align: right;
 	float: right;
-	margin-top: 15px;
+	margin: 15px 10px 0 0;
 	max-width: 700px;
 }
 
