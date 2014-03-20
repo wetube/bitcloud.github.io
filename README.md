@@ -7,6 +7,8 @@ Fill out the information [here](https://docs.google.com/forms/d/1m-VO63sxyBMXEUz
 
 Check out the preview [here](http://wetube.github.io/)
 
+Check out the site [here](bitcloudproject.org)
+
 [![Bitcloud website](http://i.imgur.com/ztilWo7.png)](http://wetube.github.io/)
 
 Goals
