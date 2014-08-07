@@ -92,6 +92,7 @@ nav {
 	color: #FFF;
 	text-transform: uppercase;
 	border-bottom: 1px solid #FFF;
+    opacity: 0.9
 }
 
 nav #case {
