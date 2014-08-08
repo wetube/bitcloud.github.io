@@ -1,14 +1,19 @@
-**Website Development For Bitcloud**
-## Getting Started
+Website Development For Bitcloud
+====
+Getting Started
+----
 
-Fill out the information [here](https://docs.google.com/forms/d/1m-VO63sxyBMXEUzQOhHxv-VewguuprEx6yAIW7f2oQY/viewform)
+Fill out your information [here](https://docs.google.com/forms/d/1m-VO63sxyBMXEUzQOhHxv-VewguuprEx6yAIW7f2oQY/viewform) if you would like to help with the development of the Bitcloud website.
 
-Check out the preview [here](http://wetube.github.io/)
+Check out the preview [here](http://bitcloud.github.io/)
 
-<a href="http://imgur.com/LUCvAJM"><img src="http://i.imgur.com/LUCvAJM.png" title="Hosted by imgur.com" /></a>
+Check out the website [here](http://bitcloudproject.org)
 
-## Goals
-This website will act as both a means to spread the knowledge of bitcloud to the community, while also acting as a discussion base for the developers of bitcloud.
+[![Bitcloud website](http://i.imgur.com/ztilWo7.png)](http://wetube.github.io/)
+
+Goals
+----
+The eventual goal for this website will be for it to act both as a means to spread knowledge about Bitcloud to the world, as well as to act as means of discussion for the developers of Bitcloud.
 
 There are decisions to be made about the language choice for the backend of the website.
 
@@ -19,10 +24,10 @@ The currently trending choices are:
 - RAILS
 
 
-## Website Features 
-(feel free to change this, but this is what I had thought when writing this - SBSPIDER) :
+Website Features
+----
 
-Forum - so that we can shift our discussions away from mailing lists. Either using another framework, or creating our own         with features like notifications.
+Forum - so that we can shift our discussions away from mailing lists. Either using another framework, or creating our own with features like notifications.
 
 PR - We can use this as a front end to communicate to the community
 
@@ -30,7 +35,11 @@ Recruitment - As a means to recruit people for the team
 
 Discussion / Chat system
 
+Wiki - To replace the current wiki with a more functional and beautiful one.
 
-## Different Parts
-Now, we can have two sides of the website - for the dev's and for the community.
-The community part would, as mentioned before, act as a PR front end (e.g. linking to facebook and reddit), while the dev part could act like the Forum, discussion, recruitment etc, while also including things like the calender, links to the build server, code style guide, testing guide etc.
+
+Different Parts
+----
+We will have two sides to the website. One side will be for the developers and the other side will be for everyone else.
+
+The public part would will act as a "PR" and front end (e.g. linking to facebook and reddit), while the developer part will have a forum, discussion, recruitment etc. It will also including things like a calender, links to the build server, code style guide, testing guide etc.
