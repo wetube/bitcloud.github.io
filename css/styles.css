@@ -1,0 +1,306 @@
+@charset "utf-8";
+
+/* ======================================================== */
+/* RESET */
+
+* {
+	margin: 0;
+	border: none;
+}
+body {
+	line-height: 1;
+	background-color: #222;
+	font-family: 'Alef';
+	font-weight: 400;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* ======================================================== */
+/* FONTS */
+
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alef Regular'), local('Alef-Regular'), url(http://themes.googleusercontent.com/static/fonts/alef/v2/C8wmYJieZdfX3SNk-GwKVA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Alef';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Alef Bold'), local('Alef-Bold'), url(http://themes.googleusercontent.com/static/fonts/alef/v2/-Kr5IHxOfJcJ-pnH-9NRPA.woff) format('woff');
+}
+/* ======================================================== */
+/* WHOLE PAGE STYLES - MARKED WITH AN X- */
+.X-center {
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display: box;
+	box-pack: center;
+	box-align: center;
+}
+#playbutton {
+        width:100%;
+        height:100%;
+        font-size:125px;
+        line-height:500px;
+        text-align:center;
+}
+strong {
+	font-weight: 700;
+}
+
+/* ======================================================== */
+/* ELEMENT STYLES */
+
+/* NAVIGATION START */
+
+nav a {
+	font-family: 'Alef';
+	font-weight: 700;
+	line-height: 18px;
+	border-top: 4px solid #42b6ff;
+	padding: 15px 15px 0 15px;
+	margin: -15px -5px auto auto;
+	display: inline-block;
+	vertical-align: top;
+}
+nav a:hover, nav a:active {
+	border-top: 4px solid #FFF;
+}
+
+nav {
+	background-color: #42b6ff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	
+	font-size: 18px;
+	color: #FFF;
+	text-transform: uppercase;
+	border-bottom: 1px solid #FFF;
+    opacity: 0.93
+}
+
+nav #case {
+	width: 1000px;
+	overflow: hidden;
+	display: block;
+	margin: 0 auto;
+}
+
+nav #case img {
+	cursor: pointer;
+	vertical-align: top;
+}
+
+nav #case .left {
+	display: inline-block;
+	text-align: left;
+	float: left;
+	margin-top: 15px;
+}
+
+nav #case .right {
+	text-align: right;
+	float: right;
+	margin: 15px 10px 0 0;
+	max-width: 700px;
+}
+
+nav #case #subnav {
+	background-color: #FFF;
+	width: 150px;
+	display: none;
+	float:right;
+	margin: 20px -20px 0 0;
+}
+
+nav #case #subnav a {
+	display: block;
+	margin: 0;
+	padding: 15px;
+	color: #42b6ff;
+	border: none;
+	background-color: #FFF;
+	font-size: 16px;
+}
+nav #case #subnav a:hover, nav #case #subnav a:active {
+	background-color: #42b6ff;
+	color: #FFF;
+}
+nav #case #subnav-icon {
+	padding-bottom: 20px;
+	float:right;
+}
+nav #case .mobile-subnav {
+	display: none;
+}
+nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
+	display:block;
+}
+
+/* NAVIGATION END */
+
+/* CENTER START */
+/* INCLUDES VIDEO/SLOGAN/SEEN ON/DESCRIPTION */
+#center {
+	width: 1000px;
+	margin: 100px auto 0 auto;
+	color: #FFF;
+}
+#center #video {
+	width: 800px;
+	margin: 0 auto;
+	height: 500px;
+	background-color: rgba(0,0,0,.5);
+	
+	display: block;
+}
+#center #description {
+	width: 760px;
+	padding: 0 20px 20px 20px;
+	text-align: justify;
+	display: block;
+	font-size:18px;
+	margin: 50px auto 0 auto;
+}
+#center #seenon {
+	width: 100%;
+	margin: 50px auto auto auto;
+	text-align: center;
+	border-bottom: 1px solid #FFF;
+	padding-bottom: 50px;
+}
+#center #seenon h1 {
+	font-size: 36px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	text-transform:uppercase;
+}
+#center #features .title, #center #applications .title, #center #team .title {
+	margin-top: 50px;
+	width:100%;
+	text-align: center;
+	font-weight: 400;
+	font-size: 36px;
+	text-transform:uppercase;
+}
+#center #features .feature, #center #applications .application, #center #team .bios {
+	width: 300px;
+	height: 600px;
+	margin: 50px 15px 50px 15px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	background-color: #333;
+	/* background-color: rgba(0,0,0,.1); */
+}
+#center #features .feature .text, #center #applications .application .text, #center #team .bios .text {
+	background-color: #42b6ff;
+	/* background-color: rgba(0,0,0,.15); */
+	display: block;
+	width: calc(100% - 40px);
+	height: 260px;
+	padding: 20px;
+}
+#center #features .feature .center, #center #applications .center, #center #team .bios .center {
+	width: 300px;
+	height: 300px;
+	border-bottom: 1px solid #FFF;
+	-moz-box-shadow: inset 0 0 10px #000;
+	-webkit-box-shadow: inset 0 0 10px #000;
+	box-shadow: inset 0 0 10px #000;
+}
+#center #features .feature h1, #center #applications .bios #center h1, #center #team .bios #center h1 {
+	font-weight: 400;
+	text-align:left;
+}
+#center #features, #applications {
+	border-bottom: 1px solid #FFF;
+}
+/* CENTER END */
+
+/* ======================================================== */
+/* RESPONSIVE GRID */
+
+@media (max-width: 1224px) {
+}
+
+@media (max-width: 1024px) {
+	nav #case {
+		width: 100%;
+	}
+	
+	/* TWO COLUMNS */
+	#center {
+		width: 665px;
+	}
+	#center #video {
+		width: 100%;
+	}
+	#center #description {
+		width: -webkit-calc(100% - 40px);
+		width: calc(100% - 40px);
+	}
+}
+@media (max-width: 700px) {
+	/* ONE COLUMN */
+	#center {
+		width: -webkit-calc(100% - 40px); /* FALLBACK */
+		width: calc(100% - 40px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#center #video {
+		height: 200px;
+	}
+	#center #features .feature, #center #applications .application, #center #team .bios{
+		width: auto;
+		margin: 50px 0;
+	}
+	#center #features .feature .center, #center #applications .center, #center #team .center{
+		width: 100%;
+	}
+	nav #case .desktop-nav {
+		display: none;
+	}
+	nav #case .mobile-subnav {
+		display: block;
+	}
+	nav #case #subnav a {
+		font-size:14px;
+		padding: 10px 10px 10px 0;
+	}
+	#playbutton {
+		line-height: 200px;
+	}
+	nav #subnav-icon:active + #subnav {
+		display: none;
+		-webkit-transition-delay: .1s;
+	}
+}
+
+@media (max-width: 550px) {
+	#center #features .feature, #center #applications .application, #center #team .bios {
+		height: auto;
+	}
+	#center #features .feature .text, #center #applications .application .text, #center #team .bios .text {
+		height: auto;
+	}
+}
+@media (max-width: 480px) {
+}
