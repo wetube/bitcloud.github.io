@@ -1,5 +1,6 @@
 @charset "utf-8";
 
+/* ======================================================== */
 /* RESET */
 
 * {
@@ -36,18 +37,18 @@ a {
 /* ======================================================== */
 /* WHOLE PAGE STYLES - MARKED WITH AN X- */
 .X-center {
-	display:-ms-flexbox;
-	-ms-flex-pack:center;
-	-ms-flex-align:center;
-	display:-moz-box;
-	-moz-box-pack:center;
-	-moz-box-align:center;
-	display:-webkit-box;
-	-webkit-box-pack:center;
-	-webkit-box-align:center;
-	display:box;
-	box-pack:center;
-	box-align:center;
+	display: -ms-flexbox;
+	-ms-flex-pack: center;
+	-ms-flex-align: center;
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+	display: box;
+	box-pack: center;
+	box-align: center;
 }
 #playbutton {
         width:100%;
@@ -64,6 +65,7 @@ strong {
 /* ELEMENT STYLES */
 
 /* NAVIGATION START */
+
 nav a {
 	font-family: 'Alef';
 	font-weight: 700;
@@ -90,6 +92,7 @@ nav {
 	color: #FFF;
 	text-transform: uppercase;
 	border-bottom: 1px solid #FFF;
+    opacity: 0.93
 }
 
 nav #case {
@@ -112,18 +115,18 @@ nav #case .left {
 }
 
 nav #case .right {
-	display: inline-block;
 	text-align: right;
 	float: right;
-	margin-top: 15px;
-	max-width: 770px;
+	margin: 15px 10px 0 0;
+	max-width: 700px;
 }
 
 nav #case #subnav {
 	background-color: #FFF;
-	width: 200px;
-	margin-left: 570px;
+	width: 150px;
 	display: none;
+	float:right;
+	margin: 20px -20px 0 0;
 }
 
 nav #case #subnav a {
@@ -133,11 +136,23 @@ nav #case #subnav a {
 	color: #42b6ff;
 	border: none;
 	background-color: #FFF;
+	font-size: 16px;
 }
 nav #case #subnav a:hover, nav #case #subnav a:active {
 	background-color: #42b6ff;
 	color: #FFF;
 }
+nav #case #subnav-icon {
+	padding-bottom: 20px;
+	float:right;
+}
+nav #case .mobile-subnav {
+	display: none;
+}
+nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
+	display:block;
+}
+
 /* NAVIGATION END */
 
 /* CENTER START */
@@ -164,7 +179,7 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	margin: 50px auto 0 auto;
 }
 #center #seenon {
-	width: 1000px;
+	width: 100%;
 	margin: 50px auto auto auto;
 	text-align: center;
 	border-bottom: 1px solid #FFF;
@@ -176,7 +191,7 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	margin-bottom: 20px;
 	text-transform:uppercase;
 }
-#center #features .title, #center #applications .title {
+#center #features .title, #center #applications .title, #center #team .title {
 	margin-top: 50px;
 	width:100%;
 	text-align: center;
@@ -184,7 +199,7 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	font-size: 36px;
 	text-transform:uppercase;
 }
-#center #features .feature, #center #applications .application {
+#center #features .feature, #center #applications .application, #center #team .bios {
 	width: 300px;
 	height: 600px;
 	margin: 50px 15px 50px 15px;
@@ -194,15 +209,15 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	background-color: #333;
 	/* background-color: rgba(0,0,0,.1); */
 }
-#center #features .feature .text, #center #applications .application .text {
+#center #features .feature .text, #center #applications .application .text, #center #team .bios .text {
 	background-color: #42b6ff;
 	/* background-color: rgba(0,0,0,.15); */
 	display: block;
-	width: 260px;
+	width: calc(100% - 40px);
 	height: 260px;
 	padding: 20px;
 }
-#center .feature .center, #center #applications .center {
+#center #features .feature .center, #center #applications .center, #center #team .bios .center {
 	width: 300px;
 	height: 300px;
 	border-bottom: 1px solid #FFF;
@@ -210,11 +225,11 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	-webkit-box-shadow: inset 0 0 10px #000;
 	box-shadow: inset 0 0 10px #000;
 }
-#center #features .feature h1, #center #applications .application h1 {
+#center #features .feature h1, #center #applications .bios #center h1, #center #team .bios #center h1 {
 	font-weight: 400;
 	text-align:left;
 }
-#center #features {
+#center #features, #applications {
 	border-bottom: 1px solid #FFF;
 }
 /* CENTER END */
@@ -229,13 +244,62 @@ nav #case #subnav a:hover, nav #case #subnav a:active {
 	nav #case {
 		width: 100%;
 	}
+	
+	/* TWO COLUMNS */
+	#center {
+		width: 665px;
+	}
+	#center #video {
+		width: 100%;
+	}
+	#center #description {
+		width: -webkit-calc(100% - 40px);
+		width: calc(100% - 40px);
+	}
+}
+@media (max-width: 700px) {
+	/* ONE COLUMN */
+	#center {
+		width: -webkit-calc(100% - 40px); /* FALLBACK */
+		width: calc(100% - 40px);
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#center #video {
+		height: 200px;
+	}
+	#center #features .feature, #center #applications .application, #center #team .bios{
+		width: auto;
+		margin: 50px 0;
+	}
+	#center #features .feature .center, #center #applications .center, #center #team .center{
+		width: 100%;
+	}
+	nav #case .desktop-nav {
+		display: none;
+	}
+	nav #case .mobile-subnav {
+		display: block;
+	}
+	nav #case #subnav a {
+		font-size:14px;
+		padding: 10px 10px 10px 0;
+	}
+	#playbutton {
+		line-height: 200px;
+	}
+	nav #subnav-icon:active + #subnav {
+		display: none;
+		-webkit-transition-delay: .1s;
+	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 550px) {
+	#center #features .feature, #center #applications .application, #center #team .bios {
+		height: auto;
+	}
+	#center #features .feature .text, #center #applications .application .text, #center #team .bios .text {
+		height: auto;
+	}
 }
-
-@media (max-width: 640px) {
-}
-
-@media (max-width: 321px) {
-}
+@media (max-width: 480
