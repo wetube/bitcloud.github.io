@@ -12,18 +12,15 @@
 	border-top: 1px solid #333;
 }
 #center .box a {
-	font-size: 24px;
+	font-size: 18px;
 	line-height: 50px;
 	cursor: pointer;
 	padding: 0 20px;
 }
 #center .box a:before {
-	background-image:url(../img/faq/expand.png);
-	height: 50px;
-	width: 50px;
 	display: block;
 	float:left;
-	content:'';
+	content:'+';
 }
 #center .box .answer {
 	font-size:18px;
