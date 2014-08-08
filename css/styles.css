@@ -191,7 +191,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	margin-bottom: 20px;
 	text-transform:uppercase;
 }
-#center #features .title, #center #applications .title, #center #team .title {
+#center #features .title, #center #applications .title {
 	margin-top: 50px;
 	width:100%;
 	text-align: center;
@@ -199,7 +199,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	font-size: 36px;
 	text-transform:uppercase;
 }
-#center #features .feature, #center #applications .application, #center #team .bios {
+#center #features .feature, #center #applications .application {
 	width: 300px;
 	height: 600px;
 	margin: 50px 15px 50px 15px;
@@ -209,7 +209,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	background-color: #333;
 	/* background-color: rgba(0,0,0,.1); */
 }
-#center #features .feature .text, #center #applications .application .text, #center #team .bios .text {
+#center #features .feature .text, #center #applications .application .text {
 	background-color: #42b6ff;
 	/* background-color: rgba(0,0,0,.15); */
 	display: block;
@@ -217,7 +217,7 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	height: 260px;
 	padding: 20px;
 }
-#center #features .feature .center, #center #applications .center, #center #team .bios .center {
+#center #features .feature .center, #center #applications .center {
 	width: 300px;
 	height: 300px;
 	border-bottom: 1px solid #FFF;
@@ -225,11 +225,11 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	-webkit-box-shadow: inset 0 0 10px #000;
 	box-shadow: inset 0 0 10px #000;
 }
-#center #features .feature h1, #center #applications .bios #center h1, #center #team .bios #center h1 {
+#center #features .feature h1, #center #applications .application h1 {
 	font-weight: 400;
 	text-align:left;
 }
-#center #features, #applications {
+#center #features {
 	border-bottom: 1px solid #FFF;
 }
 /* CENTER END */
@@ -268,11 +268,11 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 	#center #video {
 		height: 200px;
 	}
-	#center #features .feature, #center #applications .application, #center #team .bios{
+	#center #features .feature, #center #applications .application {
 		width: auto;
 		margin: 50px 0;
 	}
-	#center #features .feature .center, #center #applications .center, #center #team .center{
+	#center #features .feature .center, #center #applications .center {
 		width: 100%;
 	}
 	nav #case .desktop-nav {
@@ -295,10 +295,10 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 }
 
 @media (max-width: 550px) {
-	#center #features .feature, #center #applications .application, #center #team .bios {
+	#center #features .feature, #center #applications .application {
 		height: auto;
 	}
-	#center #features .feature .text, #center #applications .application .text, #center #team .bios .text {
+	#center #features .feature .text, #center #applications .application .text {
 		height: auto;
 	}
 }
