@@ -8,7 +8,7 @@ Check out the preview [here](http://wetube.github.io/bitcloud.github.io/)
 
 Check out the website [here](http://bitcloudproject.org)
 
-[![Bitcloud website](http://imgur.com/mXWi3q9)](http://bitcloudproject.org)
+[![Bitcloud website](<a href="http://imgur.com/mXWi3q9"><img src="http://i.imgur.com/mXWi3q9.png" title="Hosted by imgur.com" /></a>)](http://bitcloudproject.org)
 
 Goals
 ----
