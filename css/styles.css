@@ -232,6 +232,9 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 #center #features, #applications {
 	border-bottom: 1px solid #FFF;
 }
+/* Slide 1 */
+#slide-1 .bcg {background-image:url('../img/background.jpg')}
+
 /* CENTER END */
 
 /* ======================================================== */
