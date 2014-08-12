@@ -18,32 +18,6 @@ a {
 	color: #FFF;
 	text-decoration: none;
 }
-.hsContainer {
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    opacity: 0;
-}
-.hsContent {
-    max-width: 450px;
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    vertical-align: middle;
-    color: #ebebeb;
-    padding: 0 8%;
-    text-align: center
-}
-.bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-}
 
 /* ======================================================== */
 /* FONTS */
@@ -258,9 +232,6 @@ nav #subnav-icon:hover + #subnav, nav #case #subnav:hover {
 #center #features, #applications {
 	border-bottom: 1px solid #FFF;
 }
-/* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/background.jpg')}
-
 /* CENTER END */
 
 /* ======================================================== */
