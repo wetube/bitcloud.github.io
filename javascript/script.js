@@ -1,5 +1,7 @@
 $( document ).ready(function() {
-  ( function( $ ) {
+
+
+( function( $ ) {
     // Init Skrollr
     var s = skrollr.init({
         render: function(data) {
@@ -8,4 +10,6 @@ $( document ).ready(function() {
         }
     });
 } )( jQuery );
+
+
 });
